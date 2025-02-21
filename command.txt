@@ -1,0 +1,926 @@
+    1  sudo apt-get remove --purge wine
+    2  ppa
+    3  exit
+    4  sudo apt-get --purge remove wine
+    5  sudo apt-get remove --purge wine
+    6  sudo apt-get --purge remove wine
+    7  sudo apt-get remove --purge wine
+    8  sudo apt-get --purge remove wine
+    9  sudo apt-get remove --purge wine
+   10  sudo apt-get --purge remove wine
+   11  sudo apt-get update
+   12  sudo apt-get autoclean
+   13  sudo apt-get clean
+   14  sudo apt-get autoremov
+   15  sudo apt-get autoremove
+   16  sudo apt-get update
+   17  apt list --installed | sed -E 's|(.*)/.*|\1|' | grep -i wine
+   18  sudo apt-get purge --autoremove fonts-wine
+   19  sudo apt-get purge --autoremove libwine
+   20  sudo apt-get purge --autoremove wine32
+   21  sudo apt-get update
+   22  rm $HOME/.local/share/desktop-directories/wine*
+   23  sudo apt-get remove wine* --purge
+   24  sudo apt-get autoremove -y
+   25  rm -rf ~/.Wine
+   26  sudo apt-get remove wine* --purge
+   27  sudo cat /etc/apt/sources.list | grep winehq
+   28  cd Downloads/
+   29  wget -nc https://dl.winehq.org/wine-builds/winehq.key && sudo apt-key add winehq.key && sudo apt update
+   30  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv F987672F
+   31  sudo apt-get update
+   32  wget -nc https://dl.winehq.org/wine-builds/winehq.key
+   33  sudo dpkg --add-architecture i386
+   34  wget -nc https://dl.winehq.org/wine-builds/winehq.key
+   35  wget https://dl.winehq.org/wine-builds/Release.key
+   36  sudo apt-key add Release.key
+   37  sudo apt-add-repository 'https://dl.winehq.org/wine-builds/ubuntu/'
+   38  udo apt-add-repository 'https://dl.winehq.org/wine-builds/ubuntu/'
+   39  sudo apt-add-repository 'https://dl.winehq.org/wine-builds/ubuntu/'
+   40  sudo apt-get update
+   41  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 68980A0EA10B4DE8
+   42  apt-key list
+   43  sudo dpkg --add-architecture i386 
+   44  sudo wget -nc -O /usr/share/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+   45  lsb_release
+   46  hostnamectl
+   47  sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources
+   48  sudo apt-get update
+   49  sudo apt update
+   50  sudo cp /etc/apt/sources.list /etc/apt/sources.list.back
+   51  sudo gedit /etc/apt/sources.list
+   52  sudo nano /etc/apt/sources.list
+   53  sudo apt-get install -f
+   54  sudo rm /etc/apt/sources.list
+   55  sudo software-properties-gtk
+   56  sudo apt update
+   57  sudo apt-get update
+   58  sudo poweroff
+   59  sudo apt-get update
+   60  sudo apt-get upgrade
+   61  sudo apt-get upgrade -y
+   62  sudo apt-get update
+   63  sudo apt-get upgrade
+   64  sudo poweroff
+   65  pwd
+   66  sudo apt-get update
+   67  sudo apt-get upgrade
+   68  sudo poweroff
+   69  pdftk A=22420036_Alexander\ eggy_Naskah\ Tesis.pdf cat A1-A4 output Abstrak_AlexanderEggy_22420036_SainsKebumian.pdf
+   70  pdftk 22420036_AlexanderEggy_NaskahTesis.pdf cat 1-4 output Abstrak_AlexanderEggy_22420036_SainsKebumian.pdf
+   71  sudo poweroff
+   72  sudo apt-get update
+   73  sudo apt-get upgrade
+   74  exit
+   75  ll
+   76  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-A3 B A5-end output testing.pdf
+   77  sudo pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-A3 B A5-end output testing.pdf
+   78  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-A3 B A5-end testing.pdf
+   79  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-A3 B1 A5-end testing.pdf
+   80  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-A3 B A5-end testing.pdf
+   81  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-A3 B1 A5-end testing.pdf
+   82  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-A3 B A5-end testing.pdf
+   83  pdftk --help
+   84  pdftk a=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf b=SURAT_PERNYATAAN_EGGY.pdf cat a1-a3 b a5-end testing.pdf
+   85  ll
+   86  sudo chmod +x SURAT_PERNYATAAN_EGGY.pdf 
+   87  sudo chmod +x Tesis_AlexanderEggy_22420036_SainsKebumian.pdf 
+   88  ll
+   89  pdftk a=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf b=SURAT_PERNYATAAN_EGGY.pdf cat a1-a3 b a5-end testing.pdf
+   90  sudo apt-get remove pdftk --purge
+   91  sudo apt-get purge pdftk
+   92  sudo apt-get autoremove
+   93  sudo apt-get install pdftk
+   94  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-A3 B A5-end output test.pdf
+   95  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1:A3 B A5-end output test.pdf
+   96  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1:A3 B A5:end output test.pdf
+   97  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-A3 B A5-end output test.pdf
+   98  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-A3 B A5-end test.pdf
+   99  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-A3S BS A5-endS test.pdf
+  100  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-3 B A5-end test.pdf
+  101  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-3 B1 A5-end test.pdf
+  102  pdftk A=Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=SURAT_PERNYATAAN_EGGY.pdf cat A1-3 B1 A5-end output test.pdf
+  103  sudo poweroff
+  104  pdftk A=1Abstrak_AlexanderEggy_22420036_SainsKebumian.pdf B=hal_pe
+  105  pdftk A=1Tesis_AlexanderEggy_22420036_SainsKebumian.pdf B=hal_peng.pdf cat A1-3 B1 A5-end output Tesis_AlexanderEggy_22420036_SainsKebumian.pdf 
+  106  sudo poweroff
+  107  sudo apt-get update
+  108  sudo apt-get upgrade
+  109  exit
+  110  sudo apt-get upgrade
+  111  vim init.vim 
+  112  sudo apt-get install neovim
+  113  nvim init.vim 
+  114  exit
+  115  sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+  116         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  117  sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  118  mkdir ~/.config/nvim
+  119  cd ~/.config/nvim/
+  120  ls
+  121  touch init.vim
+  122  ls
+  123  nvim init.vim 
+  124  cat init.vim 
+  125  nvim init.vim 
+  126  sudo apt-get install tmux
+  127  tmux
+  128  nvim init.vim 
+  129  sudo poweroff
+  130  cd .config/nvim/
+  131  ks
+  132  ls
+  133  git clone https://github.com/josethz00/neovim-like-vscode.git
+  134  ls
+  135  cd neovim-like-vscode/
+  136  ls
+  137  cp * ../
+  138  ls
+  139  cd ..
+  140  ls
+  141  rm -rf neovim-like-vscode/
+  142  ls
+  143  nvim init.vim 
+  144  exit
+  145  nvim
+  146  sudo apt-get update
+  147  sudo reboot
+  148  vi
+  149  exit
+  150  pdftk SKL_TB_S2_Alexander.pdf Laporan_Tugas_Belajar_an_Eggy.pdf SK_KP_3A.pdf Tesis_AlexanderEggy_22420036_SainsKebumian.pdf cat output GAB_FILE.pdf
+  151  convert HADIR_CONFR.png HADIR_CONFR.pdf
+  152  sudo convert HADIR_CONFR.png HADIR_CONFR.pdf
+  153  man convert
+  154  convert HADIR_CONFR.png HADIR_CONFR.pdf
+  155  magick convert HADIR_CONFR.png HADIR_CONFR.pdf
+  156  sudo apt-get install magick
+  157  convert -version
+  158  sudo apt-get install imagemagick 
+  159  sudo apt-get autoremove
+  160  sudo apt-get install imagemagick 
+  161  convert HADIR_CONFR.png HADIR_CONFR.pdf 
+  162  sudo apt-get install gscan2pdf 
+  163  sudo apt-get install install build-essential make git
+  164  sudo apt-get install build-essential make git
+  165  sudo apt-get remove imagemagick* -y
+  166  sudo apt-get install build-essential make git
+  167  sudo apt-get autoremove
+  168  sudo apt-get install build-essential make git
+  169  git clone https://github.com/ImageMagick/ImageMagick.git
+  170  cd ImageMagick
+  171  ./configure
+  172  make
+  173  sudo make install
+  174  sudo ldconfig /usr/local/lib
+  175  convert -version
+  176  cd ~
+  177  convert -version
+  178  convert HADIR_CONFR.png HADIR_CONFR.pdf
+  179  convert kehadiran_4.JPG kehadiran_4.pdf
+  180  convert bukti_trf.jpeg bukti_trf.pdf
+  181  pdftk form_pengajuan.pdf IMERG-E\ satellite\ rainfall\ estimation\ error\ decomposition\ for\ early\ warning\ use\ in\ several\ parts\ of\ Indonesia.pdf Alexander\ Eggy\ Christian\ Pandiangan.pdf HADIR_CONFR.pdf kehadiran_4.pdf bukti_trf.pdf output gab_file.pdf
+  182  pdftk form_pengajuan.pdf IMERG-E\ satellite\ rainfall\ estimation\ error\ decomposition\ for\ early\ warning\ use\ in\ several\ parts\ of\ Indonesia.pdf ID0057_LOA_IC-STCC2022.pdf 0057_INVOICE_IC-STSS2022.pdf bukti_trf.pdf Alexander\ Eggy\ Christian\ Pandiangan.pdf HADIR_CONFR.pdf kehadiran_4.pdf output gab_file.pdf
+  183  pdftk perpanjanganTB_ALEXANDER\ EGGY\ CHRISTIAN\ P\,\ S.Tr.pdf SKL_TB_S2_Alexander.pdf Laporan_Tugas_Belajar_an_Eggy.pdf SK_KP_3A.pdf Tesis_AlexanderEggy_22420036_SainsKebumian.pdf cat output GAB_FILE.pdf
+  184  cd ~
+  185  cd APP/
+  186  ls
+  187  cd opengrads/
+  188  ls
+  189  cd wgrib2-v0.1.9.4/
+  190  ls
+  191  ll
+  192  cd ..
+  193  la
+  194  cat ~/.bashrc
+  195  ls
+  196  ll
+  197  cd APP/
+  198  ls
+  199  cd opengrads/
+  200  ls
+  201  cd opengrads-2.2.1.oga.1/
+  202  ls
+  203  cd ../supplibs-2.4.0/
+  204  ls
+  205  cd x86_64-pc-linux-gnu-glibc_2.17/
+  206  ls
+  207  cd bin/
+  208  ls
+  209  cd ..
+  210  ls
+  211  cd ..
+  212  ls
+  213  cd ..
+  214  ls
+  215  cd opengrads-2.2.1.oga.1/
+  216  ls
+  217  cd Classic/
+  218  ls
+  219  cd bin
+  220  ls
+  221  cat ~/.bashrc
+  222  ls
+  223  cd ..
+  224  cd ../../
+  225  ls
+  226  cat ~/.bashrc
+  227  sudo apt-get update
+  228  sudo apt-get update -y
+  229  sudo apt-get upgradde
+  230  sudo apt-get upgrade -y
+  231  chmod 755 xampp-linux-x64-7.4.30-1-installer.run 
+  232  sudo ./xampp-linux-x64-7.4.30-1-installer.run 
+  233  vi normal-iklim.js 
+  234  sudo apt-get install nodejs
+  235  sudo apt-get install npm
+  236  cd /opt/lampp/
+  237  ls
+  238  cd htdocs/
+  239  ls
+  240  ll
+  241  mkdir project
+  242  sudo mkdir project
+  243  ls
+  244  cd project/
+  245  cp -r ~/Downloads/BELAJAR/pelatihan_web_bidang/scripts/* .
+  246  ls
+  247  sudo cp -r ~/Downloads/BELAJAR/pelatihan_web_bidang/scripts/* .
+  248  ls
+  249  ll
+  250  sudo chmod +x *
+  251  ls
+  252  lls
+  253  ll
+  254  sudo chmod +x *
+  255  sudo chmod 777 *
+  256  cd ..
+  257  sudo chmod 777 -R /opt/lampp/htdocs
+  258  cd project/
+  259  sudo cp bg_ekstrim.jpg bg_normal.jpg
+  260  sudo ln -s /opt/lampp/lampp /etc/init.d/lampp
+  261  sudo update-rc.d lampp start 80 2 3 4 5 . stop 30 0 1 6 .
+  262  sudo /opt/lampp/lampp security
+  263  cat /opt/lampp/etc/php.ini
+  264  vi /opt/lampp/etc/php.ini
+  265  sudo vi /opt/lampp/etc/php.ini
+  266  sudo /opt/lampp/lampp oci8
+  267  cd /opt/lampp/
+  268  ls
+  269  sudo chmod +x manager-linux-x64.run
+  270  ./manager-linux-x64.run 
+  271  sudo ./manager-linux-x64.run 
+  272  sudo apt-get install apache2 mysql-server php libapache2-mod-php php-mcrypt php-mysql phpmyadmmin
+  273  sudo ./manager-linux-x64.run 
+  274  sudo poweroff
+  275  sudo apt-get update
+  276  sudo apt-get upgrade -y
+  277  cd /media/
+  278  ls
+  279  cd aii/
+  280  ls
+  281  ll
+  282  ls
+  283  sudo umount 30AE-10D9 
+  284  sudo apt-get update
+  285  sudo apt-get install samba
+  286  sudo systemctl status smbd
+  287  sudo systemctl --enable now smbd
+  288  sudo ufw allow samba
+  289  cat ~/.bashrc
+  290  ls
+  291  cd miniconda3/
+  292  ls
+  293  cd bin/
+  294  ls
+  295  cd ..
+  296  ls
+  297  cd envs/
+  298  ls
+  299  cd ncl_stable/
+  300  ls
+  301  cd bin/
+  302  ls
+  303  source acountry 
+  304  activate
+  305  source activate
+  306  jupyter notebook
+  307  sudo apt-get install libnetcdf-dev
+  308  jupyter notebook
+  309  sudo jupyter notebook
+  310  jupyter notebook --allow-root
+  311  sudo apt-get update -y
+  312  sudo apt-get install -y libhdf5-dev
+  313  pwd
+  314  pikam4
+  315  ext
+  316  exit
+  317  sudo apt-get install sshpass 
+  318  sudo vi ~/.bashrc
+  319  source ~/.bashrc
+  320  pikam4
+  321  sudo vi ~/.bashrc
+  322  source ~/.bashrc
+  323  pikam4
+  324  sudo vi ~/.bashrc
+  325  source ~/.bashrc
+  326  pikam4
+  327  sudo vi ~/.bashrc
+  328  source ~/.bashrc
+  329  pikam4
+  330  sudo vi ~/.bashrc
+  331  pikam4
+  332  sudo vi ~/.bashrc
+  333  sshpass -p P@ssw0rd@BMKG2019 ssh pikam04@172.19.1.209
+  334  sshpass -p 'P@ssw0rd@BMKG2019' ssh pikam04@172.19.1.209
+  335  ssh pikam04@172.19.1.209
+  336  source vi ~/.bashrc
+  337  source ~/.bashrc
+  338  pikam4
+  339  cat ~/.bashrc
+  340  sudo poweroff
+  341  sudo rm /var/lib/apt/lists/lock
+  342  sudo rm /var/lib/dpkg/lock
+  343  sudo apt-get update -y
+  344  sudo apt-get update
+  345  sudo apt-get upgrade
+  346  exit
+  347  sudo apt-get upgrade
+  348  sudo apt-get update
+  349  sudo apt-get upgrade
+  350  sudo dpkg --configure -a
+  351  sudo apt-get upgrade
+  352  sudo apt-get update
+  353  sudo apt-get upgrade
+  354  exit
+  355  sudo poweroff
+  356  pwd
+  357  mogrify -crop 2210x1148+90+40 *.png cropped/*.png
+  358  mogrify -crop 2210x1148+90+40 *.png /tes/*.png
+  359  mogrify
+  360  mogrify -crop 2210x1148+90+40 *.png ./tes/*.png
+  361  mogrify -crop 2210x1148+90+40 *.png /./tes/*.png
+  362  mogrify -crop 2210x1148+90+40 *.png tes/*.png
+  363  mogrify -crop 2210x1148+90+40 *.png -path tes/*.png
+  364  mogrify -crop 2210x1148+90+40 *.png -path ./tes/*.png
+  365  mogrify -crop 2210x1148+90+40 *.png -path /tes/*.png
+  366  mogrify -crop 2210x1148+90+40 *.png -path tes/*.png
+  367  mogrify -crop 2210x1148+90+40 *.png /home/aii/Downloads/crop/cropped/tes/*.png
+  368  mogrify -crop 2210x1148+90+40 *.png tes/*.png
+  369  mogrify -crop 2210x1148+90+40 *.png -path tes/*.png
+  370  mogrify -crop 2210x1148+90+40 *.png -path tes/ *.png
+  371  which bash
+  372  identify pch_ensMean.2022.12_ver_2022.11.01.png 
+  373  convert pch_ensMean.2022.12_ver_2022.11.01.png -crop 2106x1054+144+88 tes.png 
+  374  convert pch_ensMean.2022.12_ver_2022.11.01.png -crop 2210x1148+90+40 tes.png 
+  375  mogrify -crop 2210x1148+90+40 *.png cropped/*.png
+  376  exit
+  377  cd ..
+  378  ls
+  379  vi crop.sh
+  380  exit
+  381  ./cropped/
+  382  ll
+  383  sudo chmod +x crop.sh 
+  384  ./crop.sh 
+  385  sudo powerodd
+  386  sudo poweroff
+  387  sudo fdisk -l
+  388  sudo apt-get install gparte
+  389  sudo apt-get install gparted
+  390  sudo apt-get update
+  391  sudo apt-get upgrade
+  392  sudo rm /var/lib/apt/lists/lock 
+  393  sudo rm /var/lib/dpkg/lock
+  394  sudo apt-get update
+  395  sudo apt-get upgrade
+  396  sudo apt-get -f install
+  397  sudo dpkg --configure -a && sudo apt -f install
+  398  sudo dpkg --configure -a && sudo apt-get -f install
+  399  sudo apt-get update
+  400  sudo apt-get upgrade
+  401  sudo gdebi rstudio-
+  402  sudo gdebi rstudio-2022.07.2-576-amd64.deb 
+  403  sudo apt-get update
+  404  sudo apt-get upgrade
+  405  sudo gdebi rstudio-2022.07.2-576-amd64.deb 
+  406  sudo poweroff
+  407  pwd
+  408  exit
+  409  sudo apt-get update -y
+  410  sudo apt-get upgrade
+  411  sudo apt-get upgrade -y
+  412  exit
+  413  pwd
+  414  exit
+  415  sudo apt-get install filezilla
+  416  sudo apt-get update -y
+  417  sudo apt-get upgrade -y
+  418  sudo poweroff
+  419  rstudio 
+  420  ll
+  421  sudo chmod +x Plot_ENSO.Rproj
+  422  sudo -R 775 Plot_ENSO.Rproj 
+  423  sudo chmod +775 Plot_ENSO.Rproj 
+  424  xdg-open Plot_ENSO.Rproj 
+  425  sudo apt-get update
+  426  sudo apt-get update -y
+  427  sudo apt-get upgrade -y
+  428  sudo poweroff
+  429  rstudio 
+  430  sudo apt-get update
+  431  sudo apt-get upgrade
+  432  exit
+  433  sudo add-apt-repository ppa:inkscape.dev/stable
+  434  sudo apt-get update
+  435  sudo apt-get update -y
+  436  sudo apt-get install inkscape
+  437  sudo apt-get install samb
+  438  sudo apt-get install samba
+  439  hostname
+  440  sudo apt-get install cifs-utils
+  441  sudo apt-get update -y
+  442  sudo apt-get upgrade -y
+  443  exit
+  444  matlab
+  445  samba
+  446  nemo smb://192.168.8.186/aii
+  447  sudo apt-get install nemo
+  448  nemo smb://192.168.8.186/aii
+  449  sudo snap install telegram-desktop
+  450  cd /opt/
+  451  ls
+  452  sudo mv -rf ~/Downloads/BELAJAR/INTERPOLATE/Telegram/ .
+  453  sudo mv -rf ~/Downloads/BELAJAR/INTERPOLATE/Telegram .
+  454  sudo cp -rf ~/Downloads/BELAJAR/INTERPOLATE/Telegram .
+  455  ls
+  456  sudo ln -sf /opt/Telegram/Telegram /usr/bin/telegram
+  457  sudo apt-get install telegram-desktop 
+  458  pwd
+  459  sudo snap install --devmode --beta anbox
+  460  sudo apt-get install snapd
+  461  sudo mv /etc/apt/preferences.d/nosnap.pref ~/Documents/nosnap.backup
+  462  sudo apt-get update
+  463  sudo apt-get install snapd
+  464  snap install hello-world
+  465  hello-world
+  466  sudo snap install --devmode --beta anbox
+  467  sudo apt-get install lzip
+  468  cd Downloads/
+  469  wget -O -  https://raw.githubusercontent.com/geeks-r-us/anbox-playstore-installer/master/install-playstore.sh | bash
+  470  anbox.appmgr 
+  471  ifconfig
+  472  inxi -Nn
+  473  sudo gdebi rstudio-2022.12.0-353-amd64.deb 
+  474  pwd
+  475  history
+  476  nemo 172.19.1.208
+  477  exit
+  478  history
+  479  nemo smb://192.168.8.186/aii
+  480  pwd
+  481  nemo smb://192.168.8.186/aii
+  482  touch lat.R
+  483  rstudio 
+  484  sudo poweroff
+  485  sudo apt-get update -y
+  486  sudo apt-get upgrade -y
+  487  rstudio 
+  488  smb://192.168.8.186/aii
+  489  smbmount smb://192.168.8.186/aii
+  490  smbclient //192.168.8.186/aii
+  491  smbclient '\\192.168.8.186\aii'
+  492  nemo smb://192.168.8.186/aii
+  493  sudo apt-get install libmagick++-dev
+  494  pwd
+  495  rstudio
+  496  pwd
+  497  sudo apt-get install libprotobuf-dev
+  498  sudo apt-get install libjq-dev
+  499  sudo apt-get install -y libprotobuf-dev protobuf-compiler
+  500  sudo apt-get remove -y chrome-remote-desktop && sudo apt-get purge -y chrome-remote-desktop
+  501  chrome
+  502  sudo poweroff
+  503  pwd
+  504  exit
+  505  sudo apt-get update
+  506  sudo apt-get update -y
+  507  sudo apt-get upgrade -y
+  508  exit
+  509  sudo poweroff
+  510  sudo apt-get update -y
+  511  sudo apt-get upgrade -y
+  512  sudo apt-get autoremove
+  513  sudo apt-get autoclean
+  514  sudo apt-get autoremove --purge
+  515  sudo poweroff
+  516  ifconfig 
+  517  ifconfig -a
+  518  ipconfig
+  519  ip link
+  520  sudo apt-get update -y
+  521  sudo apt-get upgrade -y
+  522  sudo poweroff
+  523  mpicc -o hello hello.c
+  524  exit
+  525  mpicc -o hello hello.c 
+  526  mpirun -np 2 ./hello
+  527  mpicc -showme:compile
+  528  mpicc -showme:link
+  529  mpicc --showme
+  530  mpirun -np 2 R --slave -f sum_mpi.R 
+  531  mpirun -np 2 Rscript --slave sum_mpi.R
+  532  mpirun -np 2 R --slave -f sum_mpi.R 
+  533  mpirun -np 2 Rscript --slave sum_mpi.R
+  534  mpirun -np 2 R --slave -f sum_mpi.R 
+  535  mpirun -np 2 Rscript --slave sum_mpi.R
+  536  mpirun -np 2 R --slave -f sum_mpi.R 
+  537  R CMD SHLIB sum_mpi.
+  538  R CMD SHLIB sum_mpi.c 
+  539  sudo poweroff
+  540  jupyter notebook
+  541  exit
+  542  sudo gdebi dcpt720dwpdrv-3.5.0-1.i386.deb  
+  543  dpkg -i --force-all
+  544  ll
+  545  dpkg -i --force-all dcpt720dwpdrv-3.5.0-1.i386.deb
+  546  rm /var/lib/dpkg/lock
+  547  rm -ls /var/lib/dpkg/lock
+  548  rm -rf /var/lib/dpkg/lock
+  549  sudo rm -rf /var/lib/dpkg/lock
+  550  dpkg -i --force-all dcpt720dwpdrv-3.5.0-1.i386.deb
+  551  sudo dpkg -i --force-all dcpt720dwpdrv-3.5.0-1.i386.deb
+  552  sudo python3 -m pip install basemap
+  553  sudo python3 -m pip3 install numpy 
+  554  sudo python3 -m pip install numpy 
+  555  sudo python3 -m pip install scipy
+  556  sudo python3 -m pip install basemap
+  557  exit
+  558  pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip3 install -U 
+  559  pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip3 install -U
+  560  pip3 install --upgrade pip3
+  561  pip3 install --upgrade pip
+  562  pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip3 install -U
+  563  pip3 list -o | cut -f1 -d' ' | tr " " "\n" | awk '{if(NR>=3)print}' | cut -d' ' -f1 | xargs -n1 pip3 install -U
+  564  python3
+  565  exit
+  566  sudo poweroff
+  567  rstudio 
+  568  pwd
+  569  sudo powrroff
+  570  sudo poweroff
+  571  sudo apt-get update -y
+  572  exit
+  573  PYTHON3
+  574  python3
+  575  exit
+  576  jupyter kernelspec list
+  577  conda activate egg
+  578  python3 -m pip install notebook
+  579  jupyter --version
+  580  jupyter notebook
+  581  jupyter --version
+  582  jupyter notebook
+  583  python3 -m uninstall notebook
+  584  python3 -m pip3 uninstall notebook
+  585  pip3
+  586  pip3 uninstall notebook
+  587  conda info --envs
+  588  conda activate ncl_stable
+  589  pip3 install notebook
+  590  conda install -c conda-forge jupyter
+  591  conda update -n base -c defaults conda
+  592  conda update -n ncl_stable -c defaults conda
+  593  conda install -c conda-forge jupyter
+  594  conda update -n myenv
+  595  conda update -n ncl_stable
+  596  conda deactivetae
+  597  conda deactivete
+  598  conda deactivate
+  599  conda update -n ncl_stable
+  600  conda update -n ncl_stable --all
+  601  conda activate ncl_stable
+  602  jupyter notebook
+  603  conda install -c anaconda scipy
+  604  conda install -c anaconda numpy
+  605  conda install -c anaconda pandas
+  606  conda install -c anaconda seaborn
+  607  conda install -c anaconda basemap
+  608  conda install -c anaconda cartopy
+  609  python
+  610  python3.10
+  611  jupyter notebook
+  612  conda deactive
+  613  rm -r ~/miniconda/
+  614  sudo rm -r ~/miniconda/
+  615  ll
+  616  cd APP/
+  617  ll
+  618  cd ..
+  619  ll
+  620  conda deactivate
+  621  sudo rm -r ~/miniconda/
+  622  sudo rm -r ~/miniconda3/
+  623  jupyter notebook
+  624  pip3
+  625  pip3 install --upgrade jupyterhub
+  626  pip3 install netCDF4
+  627  pip3 install pandas
+  628  pip3 install xarray
+  629  pip3 install statsmodel
+  630  pip3 install 
+  631  pip3 install pandas
+  632  pip3 install xarray
+  633  pip3 install cartopy
+  634  pip3 install basemap
+  635  sudo apt-get instal python3-pip
+  636  sudo apt-get install python3-pip
+  637  sudo apt-get autoremove
+  638  pip3 install notebook
+  639  jupyter notebook
+  640  pip3 uninstall jupyter
+  641  pip3 install notebook
+  642  pip3 uninstall notebook
+  643  sudo pip3 uninstall notebook
+  644  sudo pip3 uninstall jupyter
+  645  pip3 install jupyter
+  646  jupyter notebook
+  647  pip3 install ipykernel
+  648  pip3 install jupyter
+  649  jupyter kernelspec list
+  650  python3 -m pip uninstall -y jupyter jupyter_core jupyter-client jupyter-console jupyterlab_pygments notebook qtconsole nbconvert nbformat jupyterlab-widgets nbclient
+  651  sudo python3 -m pip uninstall -y jupyter jupyter_core jupyter-client jupyter-console jupyterlab_pygments notebook qtconsole nbconvert nbformat jupyterlab-widgets nbclient
+  652  pip3 uninstall jupyter
+  653  pip3 uninstall jupyter-client
+  654  pip3 uninstall jupyter_core
+  655  pip3 uninstall jupyter-console
+  656  pip3 uninstall notebook
+  657  pip3 uninstall qtconsole
+  658  pip3 uninstall nbconvert
+  659  pip3 uninstall nbformat
+  660  jupyter lab clean --all
+  661  pip3 install jupyterlab --force-reinstall
+  662  jupyter lab
+  663  pip3 install pip-autoremove
+  664  pip-autoremove jupyter -y
+  665  pip3 freeze | grep jupyter
+  666  which jupyter
+  667  pip3 uninstall notebook
+  668  sudo -H python3 -m pip uninstall jupyter
+  669  pip3 uninstall jupyter
+  670  jupyter
+  671  python3 -m pip uninstall -y jupyter jupyter_core jupyter-client jupyter-console jupyterlab_pygments notebook qtconsole nbconvert nbformat
+  672  sudo apt-get remove python-jupyter-core 
+  673  sudo apt-get remove --auto-remove python-jupyter-core 
+  674  sudo apt-get purge python-jupyter-core 
+  675  sudo apt-get purge python3-jupyter-core 
+  676  sudo apt-get remove --auto-remove python3-jupyter-core 
+  677  sudo apt-get remove python3-jupyter-core 
+  678  sudo apt-get remove --auto-remove python3-jupyter-core 
+  679  sudo apt-get purge python3-jupyter-core 
+  680  sudo apt-get purge --auto-remove python3-jupyter-core 
+  681  jupyter
+  682  jupyter kernelspec uninstall unwanted-kernel
+  683  ipython
+  684  sudo apt-get install python3-pip
+  685  pip3 install notebook
+  686  pip3 uninstall notebook
+  687  jupyter lab
+  688  pip3 list --outdated
+  689  pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip3 install -U
+  690  sudo pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | sudo xargs -n1 pip3 install -U
+  691  sudo pip3 list --outdated --format=freeze | sudo grep -v '^\-e' | sudo cut -d = -f 1 | sudo xargs -n1 pip3 install -U
+  692  sudo pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | sudo xargs -n1 pip3 install -U
+  693  pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip3 install -U
+  694  jupyter
+  695  jupyter notebook
+  696  sudo apt-get autoclean
+  697  jupyter
+  698  jupyter --version
+  699  jupyterlab
+  700  jupyter-lab
+  701  sudo apt-get install ca-certificates
+  702  sudo apt-get upgrade
+  703  jupyter-lab
+  704  curl
+  705  sudo apt-get install curl
+  706  curl 
+  707  curl  --help
+  708  pip3 uninstall hupyeter
+  709  pip3 uninstall jupyeter
+  710  pip3 uninstall jupyter
+  711  pip3-autoremove jupyter -y
+  712  pip3 install pip-autoremove
+  713  pip3 install pip3-autoremove
+  714  pip3-autoremove jupyter-core -y
+  715  sudo apt-get remove python3-jupyter
+  716  jupyter notebook
+  717  sudo apt-get install build-essential python3-dev
+  718  sudo apt-get remove jupyter
+  719  sudo apt-get remove python3-jupyter-core
+  720  sudo apt-get remove --auto-remove python3-jupyter-core 
+  721  sudo apt-get purge python3-jupyter-core
+  722  sudo apt-get purge --auto-remove python3-jupyter-core 
+  723  pip3 uninstall jupyter
+  724  sudo pip3 uninstall jupyter
+  725  sudo pip3 uninstall jupyter_core
+  726  sudo apt-get remove Jupyter-notebook
+  727  sudo apt-get install python3-pip python3-dev
+  728  sudo -H pip3 install --upgrade pip
+  729  sudo -H pip3 install virtualenv
+  730  pip3 uninstall Jupyter
+  731  sudo pip3 uninstall Jupyter
+  732  pip3 uninstall Jupyter
+  733  pip3 install jupyter
+  734  pip3 install Jupyter
+  735  exit
+  736  python3
+  737  python
+  738  pip3 freeze | xargs pip3 uninstall -y
+  739  sudo pip3 freeze | sudo xargs pip3 uninstall -y
+  740  sudo pip3 freeze | xargs pip3 uninstall -y
+  741  sudo pip3 freeze | xargs sudo pip3 uninstall -y
+  742  python3 -m pip install --ignore-installed requests
+  743  sudo apt-get remove python3-requests
+  744  pip3 uninstall requests
+  745  pip3 install jupyter
+  746  pip3 UNinstall jupyter
+  747  pip3 uninstall jupyter
+  748  sudo apt-get update --fix-missing
+  749  sudo apt-get install -f
+  750  sudo dpkg --configure -a
+  751  sudo dpkg -l | grep ^..R
+  752  ps aux | grep python
+  753  which pip
+  754  python -m pip -V
+  755  python3 -m pip -V
+  756  cd /tmp
+  757  ll
+  758  cd ~
+  759  sudo apt-get install --reinstall python3
+  760  jupyter
+  761  jupyter notebook
+  762  pip3 freeze | xargs pip3 uninstall -y
+  763  sudo apt-getpurge python3-apt-clone
+  764  sudo apt-get purge python3-apt-clone
+  765  pip3 uninstall apt-cloe
+  766  pip3 uninstall apt-clone
+  767  sudo pip3 uninstall apt-clone
+  768  python3 -m pip uninstall apt-clone
+  769  python3 -m pip3 uninstall apt-clone
+  770  sudo apt-get purge apt-clone
+  771  pip3 freeze | xargs pip3 uninstall -y
+  772  sudo apt-get purge apturl
+  773  pip3 freeze | xargs pip3 uninstall -y
+  774  sudo apt-get purge apturl
+  775  sudo apt-get remove apturl
+  776  pip3 freeze | xargs pip3 uninstall -y
+  777  pip3 uninstall apt-url
+  778  pip3 uninstall apturl
+  779  sudo pip3 uninstall apturl
+  780  sudo apt-get remove python3-apturl
+  781  sudo apt-get remove apturl
+  782  sudo pip3 uninstall apturl
+  783  sudo apt-get remove apturl
+  784  pip3 freeze | xargs pip3 uninstall -y
+  785  pip3 freeze
+  786  xargs pip3
+  787  ll
+  788  cd Downloads/
+  789  ll
+  790  pip3 freeze > requirements.txt
+  791  pip3 uninstall -r requirements.txt -y
+  792  sudo pip3 uninstall -r requirements.txt -y
+  793  pip3 uninstall -r requirements.txt -y
+  794  cd Downloads/
+  795  pip3 uninstall -r requirements.txt -y
+  796  cd Downloads/
+  797  pip3 uninstall -r requirements.txt -y
+  798  pip3 uninstall -r requirements.txt -y --force-uninstall
+  799  pip3 uninstall -r requirements.txt -y
+  800  pip3 uninstall -r requirements.txt -y --force
+  801  pip3 uninstall -r requirements.txt -y
+  802  sudo apt-get purge --autoremove python3.9
+  803  sudo rm -rf /usr/lib/python3/dist-packages/apturl-0.5.2.egg-info 
+  804  pip3 uninstall -r requirements.txt -y
+  805  sudo pip3 uninstall -r requirements.txt -y
+  806  sudo rm -rf /usr/lib/python3/dist-packages/Brlapi-0.7.0.egg-info 
+  807  sudo pip3 uninstall -r requirements.txt -y
+  808  pip3 uninstall -r requirements.txt -y
+  809  sudo rm -rf /usr/lib/python3/dist-packages/catfish
+  810  sudo rm -rf /usr/lib/python3/dist-packages/catfish-4.16.0.egg-info 
+  811  sudo rm -rf /usr/lib/python3/dist-packages/catfish_lib/
+  812  pip3 uninstall -r requirements.txt -y
+  813  sudo rm -rf /usr/lib/python3/dist-packages/blinker
+  814  sudo rm -rf /usr/lib/python3/dist-packages/blinker-1.4.egg-info 
+  815  pip3 uninstall -r requirements.txt -y
+  816  sudo rm -rf /usr/lib/python3/dist-packages/ccsm-0.9.14.1.egg-info 
+  817  pip3 uninstall -r requirements.txt -y
+  818* 
+  819  sudo rm -rf /usr/lib/python3/dist-packages/command_not_found-0.3.egg-info 
+  820  pip3 uninstall -r requirements.txt -y
+  821  rm -rf /usr/lib/python3/dist-packages/certifi
+  822  sudo rm -rf /usr/lib/python3/dist-packages/certifi
+  823  sudo rm -rf /usr/lib/python3/dist-packages/certifi-2019.11.28.egg-info/
+  824  pip3 uninstall -r requirements.txt -y
+  825  sudo pip3 uninstall -r requirements.txt -y
+  826  sudo rm -rf /usr/lib/python3/dist-packages/compizconfig
+  827  sudo rm -rf /usr/lib/python3/dist-packages/compizconfig.cpython-38-x86_64-linux-gnu.so 
+  828  sudo rm -rf /usr/lib/python3/dist-packages/compizconfig_python-0.9.14.1.egg-info 
+  829  sudo pip3 uninstall -r requirements.txt -y
+  830  sudo rm -rf /usr/lib/python3/dist-packages/cupshelpers
+  831  sudo rm -rf /usr/lib/python3/dist-packages/cupshelpers-1.0.egg-info 
+  832  sudo pip3 uninstall -r requirements.txt -y
+  833  sudo rm -rf /usr/lib/python3/dist-packages/GDAL-3.0.4.egg-info 
+  834  sudo rm -rf /usr/lib/python3/dist-packages/GDAL
+  835  sudo pip3 uninstall -r requirements.txt -y
+  836  sudo rm -rf /usr/lib/python3/dist-packages/entrypoints.egg-info 
+  837  sudo rm -rf /usr/lib/python3/dist-packages/entrypoints.py 
+  838  sudo pip3 uninstall -r requirements.txt -y
+  839  sudo rm -rf /usr/lib/python3/dist-packages/indicator_cpufreq
+  840  sudo rm -rf /usr/lib/python3/dist-packages/indicator_cpufreq-0.2.2.egg-info 
+  841  sudo pip3 uninstall -r requirements.txt -y
+  842  sudo rm -rf /usr/lib/python3/dist-packages/greenlet
+  843  sudo rm -rf /usr/lib/python3/dist-packages/greenlet-0.4.15.egg-info 
+  844  sudo rm -rf /usr/lib/python3/dist-packages/greenlet.cpython-38-x86_64-linux-gnu.so 
+  845  sudo pip3 uninstall -r requirements.txt -y
+  846  sudo rm -rf /usr/lib/python3/dist-packages/louis
+  847* 
+  848* 
+  849  sudo rm -rf /usr/lib/python3/dist-packages/menulibre
+  850  sudo rm -rf /usr/lib/python3/dist-packages/menulibre-2.2.1.egg-info 
+  851  sudo rm -rf /usr/lib/python3/dist-packages/menulibre_lib/
+  852  sudo pip3 uninstall -r requirements.txt -y
+  853  sudo rm -rf /usr/lib/python3/dist-packages/mugshot
+  854  sudo rm -rf /usr/lib/python3/dist-packages/mugshot-0.4.3.egg-info 
+  855  sudo pip3 uninstall -r requirements.txt -
+  856* sudo pip3 uninstall -r requirements.tx
+  857* 
+  858  sudo pip3 uninstall -r requirements.txt
+  859  sudo rm -rf /usr/lib/python3/dist-packages/psutil
+  860  sudo rm -rf /usr/lib/python3/dist-packages/psutil-5.5.1.egg-info 
+  861  sudo pip3 uninstall -r requirements.tx
+  862  sudo pip3 uninstall -r requirements.txt
+  863  sudo rm -rf /usr/lib/python3/dist-packages/pexpect
+  864  sudo rm -rf /usr/lib/python3/dist-packages/pexpect-4.6.0.egg-info 
+  865  sudo pip3 uninstall -r requirements.txt
+  866* 
+  867  sudo pip3 uninstall -r requirements.txt
+  868* 
+  869  sudo pip3 uninstall -r requirements.txt 
+  870  sudo rm -rf /usr/lib/python3/dist-packages/pycups-1.9.73.egg-info 
+  871  sudo pip3 uninstall -r requirements.txt 
+  872  sudo rm -rf /usr/lib/python3/dist-packages/pycurl
+  873  sudo rm -rf /usr/lib/python3/dist-packages/pycurl-7.43.0.2.egg-info 
+  874  sudo rm -rf /usr/lib/python3/dist-packages/pycurl.cpython-38-x86_64-linux-gnu.so 
+  875  sudo pip3 uninstall -r requirements.txt 
+  876  sudo rm -rf /usr/lib/python3/dist-packages/PyICU
+  877  sudo rm -rf /usr/lib/python3/dist-packages/PyICU.py 
+  878  sudo rm -rf /usr/lib/python3/dist-packages/PyICU-2.4.2.egg-info 
+  879  sudo pip3 uninstall -r requirements.txt 
+  880  sudo rm -rf /usr/lib/python3/dist-packages/pyparted-3.11.2.egg-info 
+  881  sudo pip3 uninstall -r requirements.txt 
+  882  sudo rm -rf /usr/lib/python3/dist-packages/PyQt5
+  883  sudo rm -rf /usr/lib/python3/dist-packages/PyQt5-5.14.1.dist-info/
+  884  sudo pip3 uninstall -r requirements.txt 
+  885  sudo rm -rf /usr/lib/python3/dist-packages/pyxdg
+  886  sudo rm -rf /usr/lib/python3/dist-packages/pyxdg-0.26.egg-info 
+  887  sudo pip3 uninstall -r requirements.txt 
+  888  sudo rm -rf /usr/lib/python3/dist-packages/PyYAML
+  889  sudo rm -rf /usr/lib/python3/dist-packages/PyYAML-5.3.1.egg-info 
+  890  sudo pip3 uninstall -r requirements.txt 
+  891  sudo rm -rf /usr/lib/python3/dist-packages/setproctitle
+  892  sudo rm -rf /usr/lib/python3/dist-packages/setproctitle-1.1.10.egg-info 
+  893  sudo rm -rf /usr/lib/python3/dist-packages/setproctitle.cpython-38-x86_64-linux-gnu.so 
+  894  sudo rm -rf /usr/lib/python3/dist-packages/setproctitle-1.1.10.egg-info 
+  895* 
+  896* sudo rm -rf /usr/lib/python3/dist-packages/simplejso
+  897  sudo rm -rf /usr/lib/python3/dist-packages/simplejson-3.16.0.egg-info 
+  898  sudo pip3 uninstall -r requirements.txt 
+  899  sudo rm -rf /usr/lib/python3/dist-packages/sip-4.19.21.dist-info/
+  900  sudo pip3 uninstall -r requirements.txt 
+  901  sudo rm -rf /usr/lib/python3/dist-packages/systemd
+  902  sudo rm -rf /usr/lib/python3/dist-packages/systemd_python-234.egg-info 
+  903  sudo pip3 uninstall -r requirements.txt 
+  904  sudo rm -rf /usr/lib/python3/dist-packages/ufw
+  905  sudo rm -rf /usr/lib/python3/dist-packages/ufw-0.36.egg-info 
+  906  sudo pip3 uninstall -r requirements.txt 
+  907  sudo rm -rf /usr/lib/python3/dist-packages/vboxapi
+  908  sudo rm -rf /usr/lib/python3/dist-packages/vboxapi-1.0.egg-info 
+  909  sudo pip3 uninstall -r requirements.txt 
+  910  sudo rm -rf /usr/lib/python3/dist-packages/xkit
+  911* 
+  912  sudo pip3 uninstall -r requirements.txt 
+  913  python3
+  914  jupyter
+  915  pip3 uninstall jupyter
+  916  sudo pip3 uninstall jupyter
+  917  jupyter notebook
+  918  pip3 install jupyter
+  919  PIP3 LIST
+  920  pip3 list
+  921  pip3 freeze
+  922  pip3 uninstall -y -r <(pip3 freeze)
+  923  pip3 freeze
+  924  pip3 uninstall jupyter
+  925  histori > ~/Desktop/command.txt
+  926  history > ~/Desktop/command.txt
